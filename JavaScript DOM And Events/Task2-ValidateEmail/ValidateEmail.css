@@ -1,0 +1,37 @@
+#container{
+    position: relative;
+    width: 200px;
+    height: 100px;
+    padding: 20px;
+    background-color: lightgray;
+    border-radius: 10px;
+}
+#container input{
+    position: absolute;
+    left: 0;
+    width: 90%;
+    font-size: 18px;
+    bottom: 35px;
+    margin: 10px;
+}
+#container button{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    font-size: 18px;
+    margin: 10px;
+    padding: 3px;
+    border-radius: 5px;
+    background-color: dodgerblue;
+    color: white;
+}
+#container button:hover{
+    font-size: 1.3em;
+}
+#container label{
+    position: absolute;
+    left: 0;
+    bottom: 65px;
+    margin: 10px;
+    font-size: 20px;
+}
