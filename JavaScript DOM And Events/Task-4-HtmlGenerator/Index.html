@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="HTMLGenerator.css">
+</head>
+<body>
+<div id="create-p-form">
+    <label>Add paragraph with Text:</label>
+    <input type="text" id="create-text" >
+    <button type="button" id="btn" onclick="addParagraph()">Add Paragraph</button>
+    <label>Add div with Class:</label>
+    <input type="text" id="create-div-class" >
+    <button type="button" id="btnRemove" onclick="addDiv()">Add Div</button>
+    <br>
+<hr>
+    <label>Add Text for your Link:</label>
+    <input type="text" id="anchor-text" >
+    <br>
+    <label>Add URL for your Link:</label>
+    <input type="text" id="anchor-url" >
+    <br>
+    <button type="button" onclick="addAnchor()">Add Link</button>
+</div>
+
+<div id="wrapper">
+    <h3>Div Wrapper</h3>
+</div>
+
+<div id="book">
+<h3>Div for Link</h3>
+</div>
+
+<script src="HTMLGenerator.js">
+</script>
+</body>
+</html>
