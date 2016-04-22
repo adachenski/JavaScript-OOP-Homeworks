@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<link rel="stylesheet" type="text/css" href="2DStruct.css">
+<body>
+
+<canvas id="2d-geometry" width="500" height="350"></canvas>
+<h2>Select object to draw</h2>
+
+<div id="button-wrapper">
+    <button id="line" onclick="drawDivLine()">Line</button>
+    <button id="triangle" onclick="drawDivTriangle()">Triangle</button>
+    <button id="circle" onclick="drawDivCircle()">Circle</button>
+    <button id="rectangle" onclick="drawDivRectangle()">Rectangle</button>
+</div>
+
+
+<div id="line-div" class="new-div" style="display: none">
+    <h2>Create Line</h2>
+    <label>Point A</label>
+    <input placeholder="width" type="number" value="20" id="line-Ax">
+    <input placeholder="height" type="number" value="20" id="line-Ay">
+    <br>
+    <label>Point B</label>
+    <input placeholder="width" type="number" value="400" id="line-Bx">
+    <input placeholder="height" type="number" value="40" id="line-By">
+    <br>
+    <label>Enter color</label>
+    <input type="text" placeholder="Color" value="red" id="line-color">
+    <br>
+    <button id="line-submit" onclick="drawLine()">Draw</button>
+
+</div>
+
+<div id="triangle-div" class="new-div" style="display: none">
+    <h2>Create Triangle</h2>
+    <label>Point A</label>
+    <input placeholder="width" value="30" type="number" id="tri-Ax">
+    <input placeholder="height" value="60" type="number" id="tri-Ay">
+    <br>
+    <label>Point B</label>
+    <input placeholder="width" type="number" value="180" id="tri-Bx">
+    <input placeholder="height" type="number" value="60" id="tri-By">
+    <br>
+    <label>Point C</label>
+    <input placeholder="width" type="number" value="100" id="tri-Cx">
+    <input placeholder="height" type="number" value="200" id="tri-Cy">
+    <br>
+    <label>Enter color</label>
+    <input type="text" placeholder="Color" value="lightblue" id="tri-color">
+    <br>
+    <button id="tri-submit" onclick="drawTriangle()">Draw</button>
+
+</div>
+
+<div id="circle-div" class="new-div" style="display: none">
+    <h2>Create Circle</h2>
+    <label>Point A</label>
+    <input placeholder="width" type="number" value="300" id="cir-Ox">
+    <input placeholder="height" type="number" value="120" id="cir-Oy">
+    <br>
+    <label>Radius</label>
+    <input placeholder="radius" type="number" value="50" id="cir-radius">
+    <br>
+    <label>Enter color</label>
+    <input type="text" placeholder="Color" value="red" id="cir-color">
+    <br>
+    <button id="circle-submit" onclick="drawCircle()">Draw</button>
+
+</div>
+
+<div id="rectangle-div" class="new-div" style="display: none">
+    <h2>Create Rectangle</h2>
+    <label>Point A</label>
+    <input placeholder="width" type="number" value="80" id="rect-Ax">
+    <input placeholder="height" type="number" value="220" id="rect-Ay">
+    <br>
+    <label>Width</label>
+    <input placeholder="width" type="number" value="300" id="rect-width">
+    <br>
+    <label>Height</label>
+    <input placeholder="width" type="number" value="330" id="rect-height">
+    <br>
+    <label>Enter color</label>
+    <input type="text" placeholder="Color" value="blue" id="rect-color">
+    <br>
+    <button id="rect-submit" onclick="drawRectangle()">Draw</button>
+
+</div>
+<div id="div-clear">
+</div>
+<script src="2DGeometryStructure.js"></script>
+
+<script src="draw-2dStructure.js"></script>
+
+</body>
+</html>
