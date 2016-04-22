@@ -1,5 +1,6 @@
 ###Problem 4. * 2D Geometry - Canvas
 
+
 *	Your task is to use one of the previous structures (by your choice) 
 	and to add a draw() method for each shape to draw itself on Canvas.
 	Design your object-oriented hierarchy to avoid code repetition and 
@@ -17,3 +18,5 @@
 	context.fillRect(), context.strokeRect(), context.clearRect()
 	context.beginPath(), context.closePath(), context.stroke(), context.fill()
 	https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial/Drawing_shapes 
+
+*	 I have made a demo at: https://rawgit.com/adachenski/JavaScript-OOP-Homeworks/master/Prototypal%20Inheritance%20SoftUni/2DStructure-Canvas/Index.html
