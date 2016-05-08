@@ -1,53 +1,50 @@
-
-h1 {
-
+body{
+    margin: 10px;
+    padding: 10px;
 }
 
 label, input {
     font-size: 20px;
+    border: 0;
 }
 
 .container {
-
-    min-width: 300px;
+    min-width: 350px;
     min-height: 550px;
-    padding: 10px;
-    position: relative;
+    padding: 20px;
     text-align: center;
-    left: 10%;
-    top: 0;
     background-color: lightgray;
     width: 35%;
-    height: 60%;
+
 }
 
 #inner-screen {
-
     width: auto;
     margin: 40px;
-    height: 200px;
-    line-height: 200px;
+    height: 220px;
+    line-height: 220px;
     background-color: lightgreen;
     font-size: 100px;
 }
 
-#button {
-
+button {
     width: 88%;
-    height: 200px;
+    height: 170px;
     margin-bottom: 20px;
     font-size: 50px;
     color: #ffffff;
-    background-color: #404040;
-
+    background:linear-gradient(white, black);
     padding: 10px;
     margin-right: 10px;
     border: 0;
-    box-shadow: 10px 10px 5px #888888;
+    box-shadow: 20px 20px 5px #888888;
+    outline: none;
 
 }
 
-#button:hover {
-    box-shadow: 15px 15px 5px #888888;
+button:active {
+    width: 84%;
+    box-shadow: 10px 10px 5px #888888;
+    font-size: 40px;
     color: lightcoral;
 }
