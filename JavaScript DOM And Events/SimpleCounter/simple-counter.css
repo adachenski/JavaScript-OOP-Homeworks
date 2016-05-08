@@ -1,0 +1,53 @@
+
+h1 {
+
+}
+
+label, input {
+    font-size: 20px;
+}
+
+.container {
+
+    min-width: 300px;
+    min-height: 550px;
+    padding: 10px;
+    position: relative;
+    text-align: center;
+    left: 10%;
+    top: 0;
+    background-color: lightgray;
+    width: 35%;
+    height: 60%;
+}
+
+#inner-screen {
+
+    width: auto;
+    margin: 40px;
+    height: 200px;
+    line-height: 200px;
+    background-color: lightgreen;
+    font-size: 100px;
+}
+
+#button {
+
+    width: 88%;
+    height: 200px;
+    margin-bottom: 20px;
+    font-size: 50px;
+    color: #ffffff;
+    background-color: #404040;
+
+    padding: 10px;
+    margin-right: 10px;
+    border: 0;
+    box-shadow: 10px 10px 5px #888888;
+
+}
+
+#button:hover {
+    box-shadow: 15px 15px 5px #888888;
+    color: lightcoral;
+}
